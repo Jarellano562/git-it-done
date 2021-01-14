@@ -13,7 +13,7 @@ var formSubmitHandler = function(event) {
   if (username) {
     getUserRepos(username);
 
-    // clear old content
+    // clear old contentimghd
     repoContainerEl.textContent = '';
     nameInputEl.value = '';
   } else {
